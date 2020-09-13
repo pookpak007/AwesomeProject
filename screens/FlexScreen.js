@@ -10,55 +10,55 @@ export default function FlexScreen({navigation}) {
              
 
             <TouchableOpacity  onPress={() => navigation.navigate('Ex01Screen') } >                    
-                    <Text style={{ padding : 10 }}>Ex01</Text>
+                    <Text style={{ padding : 5 }}>Ex01</Text>
             </TouchableOpacity>
 
             <TouchableOpacity  onPress={() => navigation.navigate('Ex02Screen') } >                    
-                    <Text style={{ padding : 10 }}>Ex02</Text>
+                    <Text style={{ padding : 5 }}>Ex02</Text>
             </TouchableOpacity>
 
             <TouchableOpacity  onPress={() => navigation.navigate('Ex03Screen') } >                    
-                    <Text style={{ padding : 10 }}>Ex03</Text>
+                    <Text style={{ padding : 5 }}>Ex03</Text>
             </TouchableOpacity>
 
             <TouchableOpacity  onPress={() => navigation.navigate('Ex04Screen') } >                    
-                    <Text style={{ padding : 10 }}>Ex04</Text>
+                    <Text style={{ padding : 5 }}>Ex04</Text>
             </TouchableOpacity>
 
             <TouchableOpacity  onPress={() => navigation.navigate('Ex05Screen') } >                    
-                    <Text style={{ padding : 10 }}>Ex05</Text>
+                    <Text style={{ padding : 5 }}>Ex05</Text>
             </TouchableOpacity>
 
             <TouchableOpacity  onPress={() => navigation.navigate('Ex06Screen') } >                    
-                    <Text style={{ padding : 10 }}>Ex06</Text>
+                    <Text style={{ padding : 5 }}>Ex06</Text>
             </TouchableOpacity>
 
             <TouchableOpacity  onPress={() => navigation.navigate('Ex07Screen') } >                    
-                    <Text style={{ padding : 10 }}>Ex07</Text>
+                    <Text style={{ padding : 5 }}>Ex07</Text>
             </TouchableOpacity>
 
             <TouchableOpacity  onPress={() => navigation.navigate('Ex08Screen') } >                    
-                    <Text style={{ padding : 10 }}>Ex08</Text>
+                    <Text style={{ padding : 5 }}>Ex08</Text>
             </TouchableOpacity>
 
             <TouchableOpacity  onPress={() => navigation.navigate('Ex09Screen') } >                    
-                    <Text style={{ padding : 10 }}>Ex09</Text>
+                    <Text style={{ padding : 5 }}>Ex09</Text>
             </TouchableOpacity>
 
             <TouchableOpacity  onPress={() => navigation.navigate('Ex10Screen') } >                    
-                    <Text style={{ padding : 10 }}>Ex10</Text>
+                    <Text style={{ padding : 5 }}>Ex10</Text>
             </TouchableOpacity>
 
             <TouchableOpacity  onPress={() => navigation.navigate('Ex11Screen') } >                    
-                    <Text style={{ padding : 10 }}>Ex11</Text>
+                    <Text style={{ padding : 5 }}>Ex11</Text>
             </TouchableOpacity>
 
             <TouchableOpacity  onPress={() => navigation.navigate('Ex12Screen') } >                    
-                    <Text style={{ padding : 10 }}>Ex12</Text>
+                    <Text style={{ padding : 5 }}>Ex12</Text>
             </TouchableOpacity>
 
             <TouchableOpacity  onPress={() => navigation.navigate('ExSpacialScreen') } >                    
-                    <Text style={{ padding : 10 }}>ExSpacial</Text>
+                    <Text style={{ padding : 5 }}>ExSpacial</Text>
             </TouchableOpacity>
 
             

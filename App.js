@@ -9,7 +9,11 @@ import HomeStack from './navigations/HomeStack';
 import BottomTab from './navigations/BottomTab';
 import SecondBottomTab from './navigations/SecondBottomTab';
 import { createStackNavigator } from '@react-navigation/stack';
+import MidtermFirstScreen from './screens/MidtermFirstScreen';
+import TodoTab from './navigations/TodoTab';
+import { fb } from './db_config';
 const RootStack = createStackNavigator();
+
 
 
 export default function App() {
@@ -27,11 +31,15 @@ export default function App() {
                     name="SecondBottomTab" 
                     component={SecondBottomTab} 
                     options={{  title: 'Second Tab'   }} 
-                    />                               
-                
-            </RootStack.Navigator>
- 
+                    /> 
 
+                <RootStack.Screen 
+                    name="TodoTab" 
+                    component={TodoTab} 
+                    options={{  title: 'Todo Tab'   }} 
+                    />                                   
+                
+       </RootStack.Navigator>
     </NavigationContainer>
 
   );
